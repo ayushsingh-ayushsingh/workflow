@@ -7,6 +7,7 @@ from langchain_core.documents import Document
 
 load_dotenv()
 api_key=os.getenv('OPENROUTER_API_KEY')
+db_url=os.getenv('DATABASE_URL')
 
 docs = [
     Document(
